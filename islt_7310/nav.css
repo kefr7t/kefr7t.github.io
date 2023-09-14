@@ -3,7 +3,10 @@ ul li {
     border: solid #004225;
     width: 150px;
     list-style-type: none;
-    padding: 15px 15px 15px 25px;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
     margin-top: 0;
     margin-left: 10px;
     }
