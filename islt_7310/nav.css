@@ -4,16 +4,17 @@ ul li {
     background-color:#004225;
     width: 150px;
     list-style-type: none;
-    padding: 15px 15px 15px 25px;
-    margin-top: 0;
-    margin-left: 10px;
     text-align: center;
     font-weight: bold;
     color:white;
+    padding: 15px 15px 15px 25px;
+    margin-top: 0;
+    margin-left: 10px;
+
 }
 
 .active a:link {
-    background-color: #D9E3DF;
+    background-color:#D9E3DF; 
 }
 
 /*format and position the main navigation menu*/
