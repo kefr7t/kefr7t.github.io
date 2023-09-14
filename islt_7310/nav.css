@@ -10,6 +10,28 @@ ul li {
     text-align: center;
     font-weight: bold;
 }
+/*set the active page class to any <li> that has the class*/
+.active a:link {
+    background-color: beige;
+}
+
+/*format and position the main navigation menu*/
+nav {
+    top: 0px;   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav>ul li {
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    color: darkmagenta;
+    float: left;
+
+
 nav a {
     text-decoration: none;
     display: inline-block;
