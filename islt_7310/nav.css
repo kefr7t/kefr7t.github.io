@@ -1,12 +1,12 @@
 ul li {
     display: inline-block;
-    border: solid #004225;
-    background-color:#004225;
+    border: solid #D9E3DF;
+    background-color:#D9E3DF;
     width: 150px;
     list-style-type: none;
     text-align: center;
     font-weight: bold;
-    color:white;
+    color:black;
     padding: 15px 15px 15px 25px;
     margin-top: 0;
     margin-left: 10px;
@@ -21,7 +21,7 @@ nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
-    color:white;
+    color:black;
     float: left;
 }
 
@@ -43,9 +43,7 @@ nav a:link{
 nav a:hover, nav a:focus {
     background-color: #D9E3DF;
 }
-nav a:active{
-    background-color:#004225;
-}
+
 nav>a:link{
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
