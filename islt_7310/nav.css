@@ -8,30 +8,44 @@ ul li {
     margin-left: 10px;
     }
 
-    /*format all navigation <a> elements*/
+nav>ul li {
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    color: #004225;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: solid #004225;
+    padding: 15px 15px 15px 15px;
+    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 10px;
+}
+
+/*format all navigation <a> elements*/
 nav a:link{
     background-color: #D9E3DF;
-    }
-    nav a:hover, nav a:focus {
+}
+nav a:hover, nav a:focus {
     background-color: #D9E3DF;
-    }
-    nav a:active{
+}
+nav a:active{
     background-color: #D9E3DF;
-    }
-  
-    /*position sub-menu or drop-down*/
-   nav ul>li ul {
+}
+
+/*position sub-menu or drop-down*/
+nav ul>li ul {
     position: absolute;
-    padding: 15px 15px 15px 25px;
-    margin-top: 0;
-    margin-left: 10px;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
     display: block;
-    }
-    
-    /*special hover to display the drop-down*/
-    nav>ul>li:hover>ul{
-    padding: 15px 15px 15px 25px;
-    margin-top: 0;
-    margin-left: 10px;
-    display: block;
-    }
+}
