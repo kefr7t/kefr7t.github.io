@@ -6,7 +6,10 @@ ul li {
     margin-top: 0;
     margin-left: 10px;
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
-
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    float: left;
 }
 
 .active a:link {
