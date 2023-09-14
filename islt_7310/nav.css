@@ -25,7 +25,7 @@ nav a:link{
     position: absolute;
     margin-top: 0;
     margin-left: 10px;
-    display: inline-block;
+    display: inside;
     }
     
     /*special hover to display the drop-down*/
