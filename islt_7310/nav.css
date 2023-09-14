@@ -24,12 +24,12 @@ nav a:link{
     position: absolute;
     margin-top: 0;
     margin-left: 10px;
-    display: internal;
+    display: block;
     }
     
     /*special hover to display the drop-down*/
     nav>ul>li:hover>ul{
     margin-top: 0;
     margin-left: 10px;
-    display: internal;
+    display: block;
     }
