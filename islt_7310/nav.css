@@ -9,10 +9,7 @@ ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
-}
-
-.active a:link {
-    background-color:#D9E3DF; 
+    float: left;
 }
 
 nav>ul li {
