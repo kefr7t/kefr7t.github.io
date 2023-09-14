@@ -25,10 +25,10 @@ nav a:link{
     position: absolute;
     margin-top: 0;
     margin-left: 100%;
-    display: block;
+    display: list-item;
     }
     
     /*special hover to display the drop-down*/
     nav>ul>li:hover>ul{
-    display: block;
+    display: list-item;
     }
