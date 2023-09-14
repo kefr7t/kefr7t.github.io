@@ -1,36 +1,11 @@
 ul li {
     display: inline-block;
     border: solid #004225;
-    background-color:  #004225;
     width: 150px;
     list-style-type: none;
     padding: 15px 15px 15px 25px;
     margin-top: 0;
     margin-left: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    border: solid #004225;
-    padding: 15px 15px 15px 15px;
-    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: 10px;
-    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
-}
-/*set the active page class to any <li> that has the class*/
-.active a:link {
-    background-color: #D9E3DF;
-}
-
-/*format and position the main navigation menu*/
-nav {
-    top: 0px;   
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
