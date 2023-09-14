@@ -6,7 +6,6 @@ ul li {
     padding: 15px 15px 15px 25px;
     margin-top: 0;
     margin-left: 10px;
-    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
     color:#959A98;
@@ -19,6 +18,7 @@ nav a {
     padding: 15px 15px 15px 15px;
     width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
     margin: 2px;
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
 }
 
 /*format all navigation <a> elements*/
