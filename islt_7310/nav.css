@@ -9,10 +9,11 @@ ul li {
     margin-left: 10px;
     text-align: center;
     font-weight: bold;
+    color:white;
 }
-/*set the active page class to any <li> that has the class*/
+
 .active a:link {
-    background-color: beige;
+    background-color: #D9E3DF;
 }
 
 /*format and position the main navigation menu*/
@@ -28,9 +29,9 @@ nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
-    color: darkmagenta;
+    color:white;
     float: left;
-
+}
 
 nav a {
     text-decoration: none;
