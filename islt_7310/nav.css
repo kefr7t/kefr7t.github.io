@@ -40,7 +40,8 @@ nav a {
     border: solid #004225;
     padding: 15px 15px 15px 25px;
     width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
-    margin: 10px;
+    margin-top: 0;
+    margin-left: 10px;
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
 }
 
