@@ -18,11 +18,18 @@ nav a:link{
     nav a:active{
     background-color: #D9E3DF;
     }
-
+  
+    /*position sub-menu or drop-down*/
+   nav ul>li ul {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10px;
+    display: internal;
+    }
     
     /*special hover to display the drop-down*/
     nav>ul>li:hover>ul{
     margin-top: 0;
     margin-left: 10px;
-    display: inline-block;
+    display: internal;
     }
