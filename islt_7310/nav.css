@@ -24,11 +24,15 @@ nav>ul li {
     color:white;
     float: left;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 nav a {
     text-decoration: none;
     display: inline-block;
-    border: solid #004225;
     padding: 15px 15px 15px 25px;
     width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
     margin-top: 0;
