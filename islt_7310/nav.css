@@ -17,6 +17,7 @@
 nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
+    list-style-type: none;
     font-weight: bold;
     color:black;
     float: left;
