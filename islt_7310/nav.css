@@ -13,6 +13,7 @@
 
 }
 
+#navigation-project {
 nav>ul li {
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
@@ -63,4 +64,5 @@ nav ul ul li {
 /*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
+}
 }
