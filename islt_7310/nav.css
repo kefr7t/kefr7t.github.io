@@ -4,7 +4,6 @@ nav>ul li {
     text-align: center;
     font-weight: bold;
     display: inline-block;
-    background-color:#004225;
     width: 150px;
     list-style-type: none;
     text-align: center;
@@ -44,7 +43,7 @@ nav ul>li ul {
     display: none;
 }
 nav ul ul li {
-    float:none;
+    float:left;
 }
 
 /*special hover to display the drop-down*/
