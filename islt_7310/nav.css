@@ -52,7 +52,6 @@ nav ul ul li {
 nav>ul>li:hover>ul{
     display: block;
     border-radius: 25px;
-    background-color:#004225;
     color: #959A98;
 }
 
