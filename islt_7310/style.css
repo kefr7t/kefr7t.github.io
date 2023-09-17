@@ -1,2 +1,7 @@
 #heading1 {color:#004225;}
 .paragraph {text-indent: 30px;}
+footer {
+    position: fixed
+}
+
+
