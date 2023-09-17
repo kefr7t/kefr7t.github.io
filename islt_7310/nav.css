@@ -7,7 +7,7 @@ nav>ul li {
     border-radius: 25px;
     width: 150px;
     list-style-type: none;
-    text-color: #959A98;
+    color: #959A98;
     text-align: center;
     font-weight: bold;
     padding: 15px 15px 15px 25px;
@@ -20,6 +20,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     border: solid #004225;
+    color: #959A98;
     border-radius: 25px;
     padding: 15px 15px 15px 25px;
     width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
@@ -51,5 +52,6 @@ nav ul ul li {
 nav>ul>li:hover>ul{
     display: block;
     border-radius: 25px;
+    color: #959A98;
 }
 
