@@ -23,7 +23,7 @@ nav a {
     color: white;
     border-radius: 25px;
     padding: 15px 15px 15px 25px;
-    width: 180px; /*this is important to set so our drop-down doesn't go across the page*/
+    width: 220px; /*this is important to set so our drop-down doesn't go across the page*/
     margin-top: 0;
     margin-left: 0px;
     float: left
