@@ -1,4 +1,4 @@
-#header {color:#004225;}
+#heading1 {color:#004225;}
 .paragraph {text-indent: 30px;}
 footer {
     position: fixed
@@ -27,7 +27,7 @@ footer {
     grid-gap: 10px;
   }
   
-  @media screen and (min-width: 500px) {
+  @media screen and {min-width: 500px}
   
     /* no grid support? */
 
@@ -48,7 +48,7 @@ footer {
       clear: both;
     }
   
-  }
+  
   
   .wrapper > * {
     background-color: #D9E3DF;
@@ -61,9 +61,8 @@ footer {
   }
   
   /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
-  @supports (display: grid) {
+  @supports {display: grid}
     .wrapper > * {
       width: auto;
       margin: 0;
     }
-  }
