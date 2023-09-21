@@ -4,7 +4,6 @@ footer {
     position: fixed
 }
 
-all-text {font-family: Montserrat;} 
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -12,7 +11,7 @@ all-text {font-family: Montserrat;}
   
   body {
     margin: 40px;
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     background-color: #D9E3DF;
     color: Black;
   }
@@ -28,13 +27,7 @@ all-text {font-family: Montserrat;}
     grid-gap: 10px;
   }
   
-  @media screen and (min-width: 500px) {
-  
-    /* no grid support? */
-    .sidebar {
-      float: left;
-      width: 19.1489%;
-    }
+  @media screen and {min-width: 500px} 
   
     .content {
       float: right;
@@ -51,9 +44,7 @@ all-text {font-family: Montserrat;}
       /* needed for the floated layout */
       clear: both;
     }
-  
-  }
-  
+
   .wrapper > * {
     background-color: white;
     color: black;
@@ -65,11 +56,8 @@ all-text {font-family: Montserrat;}
   }
   
   /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
-  @supports (display: grid) {
+  @supports {display: grid} 
     .wrapper > * {
       width: auto;
       margin: 0;
     }
-  }
-
-
