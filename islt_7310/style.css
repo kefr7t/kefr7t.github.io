@@ -1,7 +1,7 @@
 #heading1 {color:#004225;}
 .paragraph {text-indent: 30px;}
 footer {
-    position: fixed
+    position: relative
 }
 
 *, *:before, *:after {
@@ -48,6 +48,7 @@ h1, p {
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both;
+
   }
 
 }
