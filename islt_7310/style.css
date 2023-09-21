@@ -12,7 +12,7 @@ footer {
   body {
     margin: 40px;
     font-family: 'Open Sans', 'sans-serif';
-    background-color: #D9E3DF;
+    background-color: white;
     color: black;
   }
   
@@ -56,9 +56,26 @@ footer {
       grid-column: 1;
       grid-row: 2;
     }
+    .content {
+        grid-column: 2;
+        grid-row: 2 / 7;
+      }
     
-    .block-b {
-      grid-column: 1;
-      grid-row: 4;
+    
+    .wrapper > * {
+      background-color: #D9E3DF;
+      color: black;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+      /* needed for the floated layout*/
+      margin-bottom: 10px;
     }
     
+    /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+    @supports (display: grid) {
+      .wrapper > * {
+        width: auto;
+        margin: 0;
+      }
+    }
