@@ -11,9 +11,9 @@ footer {
   
   body {
     margin: 40px;
-    font-family: 'Montserrat', 'sans-serif';
-    background-color: white;
-    color: Black;
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #D9E3DF;
+    color: black;
   }
   
   h1, p {
@@ -27,38 +27,38 @@ footer {
     grid-gap: 10px;
   }
   
-  @media screen and {min-width: 500px} 
+  @media screen and (min-width: 600px) 
   
-    .sidebar {
+    /* no grid support? */
+    .block-a, .block-b, .block-c {
       float: left;
       width: 19.1489%;
     }
-
-.content {
-  float: right;
-  width: 79.7872%;
-}
+  
+    .content {
+      float: right;
+      width: 79.7872%;
+    }
+  
     .wrapper {
       margin: 0 auto;
       grid-template-columns: 1fr 3fr;
+      grid-auto-rows: minmax(150px, auto);
     }
     
     .header, .footer {
       grid-column: 1 / -1;
+      /* needed for the floated layout */
       clear: both;
     }
-
-  .wrapper > * {
-    background-color: #D9E3DF;
-    color: black;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    margin-bottom: 10px;
-  }
-  
-  @supports {display: grid} 
-    .wrapper > * {
-      width: auto;
-      margin: 0;
+    
+    .block-a {
+      grid-column: 1;
+      grid-row: 2;
     }
+    
+    .block-b {
+      grid-column: 1;
+      grid-row: 4;
+    }
+    
