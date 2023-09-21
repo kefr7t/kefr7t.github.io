@@ -49,7 +49,9 @@ h1, p {
     text-align: center;
 
   }
-
+  
+.footer {
+  font-size: 40%;
 }
 
 .wrapper > * {
