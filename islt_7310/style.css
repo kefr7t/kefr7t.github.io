@@ -30,14 +30,11 @@ footer {
   @media screen and (min-width: 500px) {
   
     /* no grid support? */
-    .sidebar {
-      float: left;
-      width: 19.1489%;
-    }
+
   
     .content {
       float: right;
-      width: 79.7872%;
+      width: 100%;
     }
   
     .wrapper {
