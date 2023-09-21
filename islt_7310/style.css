@@ -53,8 +53,8 @@ h1, p {
 }
 
 .wrapper > * {
-  background-color: #444;
-  color: #fff;
+  background-color: #D9E3DF;
+  color: black;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
