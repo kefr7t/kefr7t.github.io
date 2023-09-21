@@ -1,8 +1,6 @@
 #heading1 {color:#004225;}
 .paragraph {text-indent: 30px;}
-footer {
-    position: relative
-}
+
 
 *, *:before, *:after {
   box-sizing: border-box;
