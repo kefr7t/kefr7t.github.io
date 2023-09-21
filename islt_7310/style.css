@@ -29,12 +29,12 @@ h1, p {
   /* no grid support? */
   .sidebar {
     float: left;
-    width: 25%;
+    width: 15%;
   }
 
   .content {
     float: right;
-    width: 75%;
+    width: 85%;
   }
 
   .wrapper {
