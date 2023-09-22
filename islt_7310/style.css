@@ -46,12 +46,12 @@ h1, p {
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both;
-    text-align: center;
 
   }
   
 .footer {
   font-size: 40%;
+  text-align: center;
 }
 
 .wrapper > * {
