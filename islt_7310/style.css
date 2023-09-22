@@ -29,7 +29,8 @@ h1, p {
   /* no grid support? */
   .sidebar {
     float: left;
-    width: 4%;
+    width: 4%
+    height: 25%
   }
 
   .content {
