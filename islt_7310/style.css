@@ -72,6 +72,7 @@ img {
 .footer {
   font-size: 80%;
   text-align: center;
+  background-color: white;
 }
 
 .wrapper > * {
