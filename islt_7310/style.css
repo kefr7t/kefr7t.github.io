@@ -50,17 +50,20 @@ h1, p {
   }
   
   .header {
-    text-align: right;
+    text-align: left;
     font-weight: bold;
+background-color: #D9E3DF;
+
   }
   
 .footer {
-  font-size: 40%;
+  font-size: 80%;
   text-align: center;
+  background-color: #D9E3DF; 
 }
 
 .wrapper > * {
-  background-color: #D9E3DF;
+  background-color: white;
   color: black;
   border-radius: 5px;
   padding: 20px;
