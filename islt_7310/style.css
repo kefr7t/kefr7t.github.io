@@ -32,10 +32,18 @@ h1, p {
     width: 4%;
     height: 25%;
   }
-  .image {
-  width: 300px;
-  height: 300px;
-  }
+
+  .container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
 
   .content {
     float: right;
