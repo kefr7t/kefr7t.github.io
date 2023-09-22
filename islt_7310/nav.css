@@ -12,7 +12,7 @@ nav>ul li {
     font-weight: bold;
     padding: 15px 15px 15px 25px;
     margin-top: 0;
-    margin-left: -5px;
+    margin-left: 15px;
 
 }
 
@@ -26,7 +26,6 @@ nav a {
     width: 155px; /*this is important to set so our drop-down doesn't go across the page*/
     margin-top: 0;
     margin-left: 0px;
-    float: left
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
 }
 
