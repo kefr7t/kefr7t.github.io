@@ -46,13 +46,14 @@ h1, p {
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both;
+    background-color: #D9E3DF;
 
   }
   
   .header {
     text-align: left;
     font-weight: bold;
-background-color: #D9E3DF;
+    background-color: #D9E3DF;
 
   }
   
