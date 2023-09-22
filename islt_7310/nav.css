@@ -49,7 +49,7 @@ nav ul ul li {
 
 /*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
-    display: block;
+    display: inline;
     border-radius: 25px;
     color:white;
 }
