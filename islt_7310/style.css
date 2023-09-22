@@ -29,8 +29,8 @@ h1, p {
   /* no grid support? */
   .sidebar {
     float: left;
-    width: 4%;
-    height: 25%;
+    width: 10%;
+    height: 100%;
   }
 
   .container {
@@ -49,7 +49,7 @@ max-height: 100%;
 
   .content {
     float: right;
-    width: 96%;
+    width: 90%;
   }
 
   .wrapper {
