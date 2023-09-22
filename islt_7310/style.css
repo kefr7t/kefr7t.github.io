@@ -49,6 +49,11 @@ h1, p {
 
   }
   
+  .header {
+    text-align: right;
+    font-weight: bold;
+  }
+  
 .footer {
   font-size: 40%;
   text-align: center;
