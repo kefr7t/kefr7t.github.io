@@ -20,8 +20,11 @@ h1, p {
 }
 
 .wrapper {
-  max-width: 940px;
-  margin: 0 10px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   display: grid;
   grid-gap: 0px;
 }
@@ -31,7 +34,7 @@ h1, p {
   /* no grid support? */
   .sidebar {
     float: left;
-    width: 10%;
+    width: 20%;
     height: 100%;
   }
 
