@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
   margin: 40px;
   font-family: 'Montserrat', sans-serif;
