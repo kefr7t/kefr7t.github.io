@@ -104,6 +104,9 @@ max-height: 100%;
 .footer {
   font-size: 80%;
   text-align: center;
+  background:-image: url(kefr7t.github.io/islt_7310/jade.jpg);
+  backgroud-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper > * {
