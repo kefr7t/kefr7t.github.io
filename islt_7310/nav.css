@@ -15,7 +15,14 @@ nav>ul li {
     margin-left: 0px;
 
 }
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  margin: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  background-color: #D9E3DF;
+  color: black;
+}
 nav a {
     text-decoration: none;
     display: inline-block;
