@@ -100,7 +100,28 @@ max-height: 100%;
     background-color: white;
 
   }
-  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+* {
+  box-sizing: hidden;
+}
+
+.zoom {
+  padding: 15px;
+  background-color: clear;
+  transition: transform .2s;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 .footer {
   font-size: 60%;
   text-align: center;
