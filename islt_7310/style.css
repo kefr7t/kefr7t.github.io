@@ -101,27 +101,15 @@ max-height: 100%;
 
   }
 
-.footer > * { 
-{
-  box-sizing: hidden;
-.zoom {
-  padding: 15px;
-  background-color: clear;
-  transition: transform .2s;
-  width: 12px;
-  height: 12px;
-  margin: 0 auto;
-
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}
-            }
   
 .footer {
   font-size: 60%;
   text-align: center;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   display: block;
   overflow: hidden;
   background-image: url(https://kefr7t.github.io/islt_7310/jade.jpg);
