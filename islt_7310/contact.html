@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+               <!--
+*****************************************************************************
+Title:  Contact page
+Use:  Users can fill out this form to connect with me
+Author:  Kasey Freeman
+Developed: September 26, 2023
+Tested:  September 26, 2023
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+               <meta charset="utf-8">
+               <link rel="stylesheet" 
+               href="style.css">
+               <link rel="stylesheet"
+               href="nav.css">
+               <title>Contact Me</title>
+</head>
+<body>
+    <main>
+        <h1>Contact Me</h1>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email" required>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+              <input type="submit" value="Submit" required>
+          
+            </form>
+
+          </div>
+    </main>
+            <br>
+    <footer>
+        Kasey Freeman, kefreeman@umsystem.edu. Everything on this website is my intellectual property. Copying or duplicating material is not allowed.
+    </footer>
+</body>
+</html>
