@@ -170,3 +170,13 @@ input[type=submit]:hover {
   background-color: #D9E3DF;
   padding: 20px;
 }
+div.scroll-container {
+  background-color: #004225;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
