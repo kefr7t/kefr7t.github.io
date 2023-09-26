@@ -103,12 +103,13 @@ max-height: 100%;
   
 .footer {
   font-size: 60%;
-  text-align: left;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
   background-image: url(https://kefr7t.github.io/islt_7310/jade.jpg);
   background-position: center center;
   backgroud-repeat: no-repeat;
-  background-size: 1170px;
-    padding-left: 15px;
+  padding-left: 15px;
   padding-right: 15px;
    max-width: 1170px;
 
